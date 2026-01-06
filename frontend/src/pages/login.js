@@ -31,7 +31,7 @@ const Login = () => {
 
     }
     try {
-      const url = "http://localhost:8080/auth/login";
+      const url = "https://authentication-pages-smoky.vercel.app/auth/login";
       const response = await fetch(url, {
         method: "POST",
         headers: {
